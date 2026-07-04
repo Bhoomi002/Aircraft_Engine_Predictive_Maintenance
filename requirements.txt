@@ -3,7 +3,5 @@ numpy
 pandas
 matplotlib
 scikit-learn
-seaborn
-xgboost
 streamlit-authenticator
 PyYAML
