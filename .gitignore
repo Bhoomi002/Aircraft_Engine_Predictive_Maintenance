@@ -1,9 +1,39 @@
+# Python cache files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.ipynb_checkpoints/
-.venv/
+*.py[cod]
+*$py.class
+
+# Virtual environments
 venv/
+env/
+.venv/
+
+# Jupyter/Colab checkpoints
+.ipynb_checkpoints/
+
+# SQLite database
+users.db
+
+# Private configuration file
+config.yaml
+
+# Environment variables
 .env
+
+# Streamlit cache
+.streamlit/secrets.toml
+
+# Model checkpoints generated during training (optional)
+*.h5
+*.ckpt
+
+# Operating system files
 .DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
