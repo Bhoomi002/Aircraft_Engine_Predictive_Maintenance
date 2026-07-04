@@ -88,6 +88,24 @@ The dataset contains:
 | Last-Cycle Test R² | 0.89 |
 
 ---
+## 📸 Screenshots
+
+### Login Page
+![Login](images/login.png)
+
+### Main Dashboard
+![Dashboard](images/dashboard.png)
+
+### RUL Prediction
+![Prediction](images/prediction.png)
+
+### Multi-Engine Comparison
+![Comparison](images/comparison.png)
+
+### Degradation Forecast
+![Forecast](images/forecast.png)
+
+---
 
 ## ⚙️ Installation
 
