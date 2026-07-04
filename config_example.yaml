@@ -1,1 +1,23 @@
+credentials:
+  usernames:
+    admin_user:
+      email: admin@example.com
+      name: Demo Admin
+      password: your_password_here
+      roles:
+        - admin
 
+    engineer1:
+      email: engineer@example.com
+      name: Demo Engineer
+      password: your_password_here
+      roles:
+        - engineer
+
+cookie:
+  name: aircraft_app_cookie
+  key: replace_with_your_secret_key
+  expiry_days: 1
+
+preauthorized:
+  emails: []
