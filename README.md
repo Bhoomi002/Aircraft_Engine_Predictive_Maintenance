@@ -1,22 +1,19 @@
-<h1 align="center">✈️ Aircraft Engine RUL Prediction System</h1>
-
-<p align="center">
-AI-powered Predictive Maintenance using Transformer-GRU and Digital Twin Technology
-</p>
+# ✈️ Aircraft Engine RUL Prediction System
+### AI-powered Predictive Maintenance using Transformer-GRU and Digital Twin Technology
 
 ---
 
 ## 📖 Overview
 
-The **Aircraft Engine Remaining Useful Life (RUL) Prediction System** is an **AI-powered predictive maintenance platform** designed to estimate the remaining operational life of aircraft turbofan engines using **multivariate sensor data**.
+The **Aircraft Engine Remaining Useful Life (RUL) Prediction System** is an AI-powered predictive maintenance platform designed to estimate the remaining operational life of aircraft turbofan engines using **multivariate sensor data**.
 
-The system combines **Transformer** and **GRU deep learning architectures** with **Digital Twin Technology** to provide:
+The system combines **Transformer** and **GRU** deep learning architectures with **Digital Twin Technology** to provide:
 
-- Accurate **RUL predictions**
-- **Real-time engine health monitoring**
-- **Maintenance planning support**
+- ✅ Accurate RUL predictions
+- ✅ Real-time engine health monitoring
+- ✅ Maintenance planning support
 
-The project utilizes **NASA's C-MAPSS FD001 dataset** and provides an interactive **Streamlit dashboard** for engineers and administrators to monitor engine health, analyze degradation trends, and manage maintenance activities.
+The project utilizes the **NASA C-MAPSS FD001 dataset** and provides an interactive **Streamlit dashboard** for engineers and administrators to monitor engine health, analyze degradation trends, and manage maintenance activities.
 
 ---
 
@@ -29,10 +26,11 @@ The project utilizes **NASA's C-MAPSS FD001 dataset** and provides an interactiv
 
 ### 🤖 AI-Based RUL Prediction
 - Transformer-GRU hybrid architecture
-- Predicts Remaining Useful Life (RUL)
-- Prediction confidence scores
+- Predicts **Remaining Useful Life (RUL)**
+- Generates prediction confidence scores
 
 ### 🩺 Component Health Monitoring
+
 Monitors critical engine parameters:
 
 - **T2** – Total temperature at fan inlet
@@ -48,25 +46,25 @@ Monitors critical engine parameters:
 
 ## 🧠 Deep Learning Architecture
 
-- **Transformer Encoder**
-  - Multi-Head Self Attention
-  - Positional Encoding
-  - Layer Normalization
+### Transformer Encoder
+- Multi-Head Self Attention
+- Positional Encoding
+- Layer Normalization
 
-- **GRU Layer**
-  - Captures temporal dependencies
-  - Learns engine degradation patterns
+### GRU Layer
+- Captures temporal dependencies
+- Learns engine degradation patterns
 
-- **Regression Head**
-  - Predicts Remaining Useful Life
+### Regression Head
+- Predicts Remaining Useful Life
 
 ---
 
 ## 📂 Dataset
 
-**NASA C-MAPSS FD001 Dataset**
+This project uses the **NASA C-MAPSS FD001 dataset**.
 
-Files:
+**Files Used**
 - `train_FD001.txt`
 - `test_FD001.txt`
 - `RUL_FD001.txt`
@@ -84,8 +82,8 @@ The dataset contains:
 
 | Metric | Score |
 |--------|--------|
-| Validation R² | 0.91 |
-| Last-Cycle Test R² | 0.89 |
+| Validation R² | **0.91** |
+| Last-Cycle Test R² | **0.89** |
 
 ---
 
@@ -95,16 +93,55 @@ The dataset contains:
 git clone https://github.com/Bhoomi002/Aircraft_Engine_Predictive_Maintenance.git
 cd Aircraft_Engine_Predictive_Maintenance
 pip install -r requirements.txt
+```
+
+---
+
+## ⚙️ Configuration
+
+1. Copy `config_example.yaml` and rename it to `config.yaml`.
+2. Update usernames, passwords, and the secret key.
+3. Run the application:
+
+```bash
 streamlit run app.py
 ```
 
 ---
 
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login Page](images/Login%20Page.png)
+
+### 📊 Dashboard
+![Dashboard](images/Dashboard.png)
+
+### 🔮 RUL Prediction
+![RUL Prediction](images/RUL%20Prediction.png)
+
+### 📈 Line Plot Forecast
+![Line Plot Forecast](images/LinePlot%20Forecast.png)
+
+### 🔧 Components Status
+![Components Status](images/Components%20status.png)
+
+### 📋 Maintenance Log
+![Maintenance Log](images/Maintenance%20log.png)
+
+---
+
 ## 👩‍💻 Author
 
-**Bhoomika M**
-
+**Bhoomika M**  
 MCA Student, JSS Academy of Technical Education, Bengaluru
 
-📧 mbhoomika00@gmail.com
+📧 Email: `mbhoomika00@gmail.com`
+
 💼 LinkedIn: https://www.linkedin.com/in/bhoomika-m-80834a327/
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
