@@ -132,7 +132,7 @@ streamlit run app.py
 ## 🎥 Project Demo
 Watch a short demonstration of the Aircraft Engine RUL Prediction System.
 
-▶️ **Project Demo:** [Project_Demo.mp4](demo/Aircraft_Engine_RUL_Demo.mp4)
+▶️ **Aircraft_Engine_RUL_Demo:** [Aircraft_Engine_RUL_Demo.mp4](demo/Aircraft_Engine_RUL_Demo.mp4)
 
 ---
 
