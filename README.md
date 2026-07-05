@@ -1,6 +1,10 @@
 # ✈️ Aircraft Engine RUL Prediction System
 ### AI-powered Predictive Maintenance using Transformer-GRU and Digital Twin Technology
 
+## 🎥 Project Demo
+
+[▶ Watch the Project Demo](demo/Project_Demo.mp4)
+
 ---
 
 ## 📖 Overview
