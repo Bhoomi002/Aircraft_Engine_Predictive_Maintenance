@@ -1,0 +1,34 @@
+credentials:
+  usernames:
+    admin_user:
+      email: admin@example.com
+      name: Admin User
+      password: admin123
+      roles:
+        - admin
+    engineer1:
+      email: engineer1@example.com
+      name: Engineer One
+      password: engineer12
+      roles:
+        - engineer
+    engineer2:
+      email: engineer2@example.com
+      name: Engineer Two
+      password: engineer123
+      roles:
+        - engineer
+    engineer3:
+      email: engineer3@example.com
+      name: Engineer Three
+      password: engineer1234
+      roles:
+        - engineer
+
+cookie:
+  name: aircraft_app_cookie
+  key: some_very_secret_random_key_123456789   # change this string to anything random
+  expiry_days: 1
+
+preauthorized:
+  emails: []
